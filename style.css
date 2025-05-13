@@ -116,7 +116,7 @@ body {
   color: #b0b0b0;
 }
 
-.bottom-player button {
+.bottom-player .controls button {
   background: #ffcc00;
   border: none;
   padding: 10px 15px;
@@ -126,7 +126,7 @@ body {
   transition: background-color 0.3s;
 }
 
-.bottom-player button:hover {
+.bottom-player .controls button:hover {
   background-color: #f9d835;
 }
 

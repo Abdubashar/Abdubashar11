@@ -19,7 +19,7 @@
     <div class="main">
       <h1>Bugungi tavsiyalar</h1>
       <div class="song-card" onclick="playSong()">
-        <img src="img/cover.jpg" alt="Qo‘shiq rasmi" />
+        <img src="img/girl-listening.jpg" alt="Qo‘shiq tinglayotgan qiz" />
         <div>
           <h3>Oq tun</h3>
           <p>Jahongir Otajonov</p>
@@ -29,13 +29,17 @@
   </div>
 
   <div class="bottom-player">
-    <img id="cover" src="img/cover.jpg" />
+    <img id="cover" src="img/girl-listening.jpg" />
     <div>
       <h4 id="title">Oq tun</h4>
       <p id="artist">Jahongir Otajonov</p>
     </div>
     <audio id="audio" src="music/song.mp3"></audio>
-    <button onclick="togglePlay()">▶</button>
+    <div class="controls">
+      <button onclick="previousSong()">«</button>
+      <button onclick="togglePlay()">▶</button>
+      <button onclick="nextSong()">»</button>
+    </div>
   </div>
 
   <script src="js/app.js"></script>
